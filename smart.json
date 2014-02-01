@@ -1,0 +1,8 @@
+{
+        "name": "bootstrap-cdn",
+        "description": "Load latest Twitter Bootstrap from Bootstrap CDN",
+        "homepage": "https://github.com/pwldp/meteor-bootstrap-cdn",
+        "author": "Dariusz Pawlak",
+        "version": "0.0.1",
+        "git": "https://github.com/pwldp/meteor-bootstrap-cdn.git"
+}
