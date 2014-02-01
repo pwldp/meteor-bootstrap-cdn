@@ -6,6 +6,7 @@
 
     <!-- Bootstrap -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -16,6 +17,7 @@
 <body>
     {{> testBootstrap}}
     {{>jumbotron}}
+    {{>stackedNav}}
     
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </body>
@@ -32,4 +34,13 @@
     <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
     <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
 </div>
+</template>
+
+<template name="stackedNav">
+<ul class="nav nav-pills nav-stacked">
+  <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i> Home</a></li>
+  <li><a href="#"><i class="fa fa-book fa-fw"></i> Library</a></li>
+  <li><a href="#"><i class="fa fa-pencil fa-fw"></i> Applications</a></li>
+  <li><a href="#"><i class="fa fa-cogs fa-fw"></i> Settings</a></li>
+</ul>
 </template>
